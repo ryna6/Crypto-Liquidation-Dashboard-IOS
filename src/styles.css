@@ -17,6 +17,12 @@
 }
 
 html,
+body {
+  height: 100%;
+  overflow: hidden; /* lock global scroll */
+}
+
+html,
 body,
 #root {
   margin: 0;
