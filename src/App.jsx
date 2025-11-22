@@ -13,7 +13,6 @@ const TABS = [
   {
     id: "liqmap",
     label: "BTC Liq Map",
-    title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 120,   // tweak this value
@@ -22,7 +21,6 @@ const TABS = [
   {
     id: "liqheat",
     label: "BTC Liq Heat",
-    title: "BTC Liquidation Heatmap",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
     offsetTop: 120,
@@ -31,7 +29,6 @@ const TABS = [
   {
     id: "spotflows",
     label: "BTC Flows",
-    title: "BTC Net Flows",
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 120,
@@ -46,7 +43,7 @@ export default function App() {
   return (
     <div className="app-root">
       <header className="app-header">
-        <div className="app-header-title">Crypto Liquidation Dashboard</div>
+        <div className="app-header-title">Crypto Dashboard</div>
         <div className="app-header-subtitle">{currentTab.title}</div>
       </header>
 
