@@ -35,7 +35,7 @@ const TABS = [
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 200,
-    cropHeight: 200,
+    cropHeight: 600,
   },
 ];
 
