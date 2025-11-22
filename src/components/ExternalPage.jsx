@@ -1,3 +1,4 @@
+// ExternalPage.jsx
 export function ExternalPage({ title, subtitle, url, source }) {
   const handleOpenInBrowser = () => {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -20,7 +21,7 @@ export function ExternalPage({ title, subtitle, url, source }) {
         </button>
         <p className="external-page-note">
           If the embedded view looks blank or blocked, tap{" "}
-          <strong>Open in Browser</strong> to view it directly.
+          <strong>Open in Browser</strong> to view it directly on {source}.
         </p>
       </div>
 
