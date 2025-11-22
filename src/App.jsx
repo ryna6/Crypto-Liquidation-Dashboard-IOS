@@ -37,6 +37,15 @@ const TABS = [
     offsetTop: 260,
     cropHeight: 670,
   },
+  {
+    id: "liqhistory",
+    label: "Liq History",
+    title: "BTC Liquidation History",
+    url: "https://www.coinglass.com/pro/futures/Liquidations",
+    source: "CoinGlass",
+    offsetTop: 100,
+    cropHeight: 700,
+  },
 ];
 
 export default function App() {
