@@ -43,8 +43,8 @@ const TABS = [
     title: "BTC Liquidation History",
     url: "https://www.coinglass.com/pro/futures/Liquidations",
     source: "CoinGlass",
-    offsetTop: 300,
-    cropHeight: 800,
+    offsetTop: 340,
+    cropHeight: 900,
   },
 ];
 
