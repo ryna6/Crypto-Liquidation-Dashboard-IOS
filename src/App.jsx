@@ -13,6 +13,7 @@ const TABS = [
   {
     id: "liqmap",
     label: "BTC Liq Map",
+    title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 120,   // tweak this value
