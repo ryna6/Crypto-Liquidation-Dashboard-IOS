@@ -1,3 +1,4 @@
+// src/App.jsx
 import { useState } from "react";
 import { TabBar } from "./components/TabBar";
 import { ExternalPage } from "./components/ExternalPage";
@@ -17,6 +18,8 @@ const TABS = [
     subtitle: "BTCUSDT futures liquidation map (CoinGlass)",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
+    offsetTop: 120,   // tweak this value
+    cropHeight: 450,  // tweak this value
   },
   {
     id: "liqheat",
@@ -25,6 +28,8 @@ const TABS = [
     subtitle: "BTCUSDT liquidation heatmap (CoinGlass)",
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
+    offsetTop: 120,
+    cropHeight: 450,
   },
   {
     id: "spotflows",
@@ -33,12 +38,13 @@ const TABS = [
     subtitle: "Bitcoin spot inflow/outflow (CoinGlass)",
     url: "https://www.coinglass.com/currencies/BTC?type=spot",
     source: "CoinGlass",
+    offsetTop: 120,
+    cropHeight: 450,
   },
 ];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("heatmap");
-
   const currentTab = TABS.find((t) => t.id === activeTab) ?? TABS[0];
 
   return (
@@ -58,6 +64,8 @@ export default function App() {
             subtitle={currentTab.subtitle}
             url={currentTab.url}
             source={currentTab.source}
+            offsetTop={currentTab.offsetTop}
+            cropHeight={currentTab.cropHeight}
           />
         )}
       </main>
