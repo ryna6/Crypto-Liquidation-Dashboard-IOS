@@ -30,13 +30,6 @@ export function ExternalPage({
     <div className="external-page">
       <div className="external-page-header">
         <div className="external-page-title">{title}</div>
-        <button
-          type="button"
-          className="open-browser-btn"
-          onClick={handleOpenInBrowser}
-        >
-          Open in Browser
-        </button>
       </div>
 
       <div className="external-page-frame-wrapper" style={wrapperStyle}>
