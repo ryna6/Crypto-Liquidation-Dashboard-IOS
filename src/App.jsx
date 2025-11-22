@@ -16,7 +16,7 @@ const TABS = [
     title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
-    offsetTop: 460,   // Removes top section of the website
+    offsetTop: 420,   // Removes top section of the website
     cropHeight: 860,  // Removes bottom section of the website embed
   },
   {
