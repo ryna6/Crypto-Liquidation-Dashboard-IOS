@@ -16,8 +16,8 @@ const TABS = [
     title: "BTC Liquidation Map",
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
-    offsetTop: 500,   // tweak this value
-    cropHeight: 700,  // tweak this value
+    offsetTop: 500,   // Removes top section of the website
+    cropHeight: 900,  // Removes bottom section of the website embed
   },
   {
     id: "liqheat",
@@ -26,7 +26,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
     offsetTop: 500,
-    cropHeight: 700,
+    cropHeight: 900,
   },
   {
     id: "spotflows",
@@ -35,7 +35,7 @@ const TABS = [
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 260,
-    cropHeight: 700,
+    cropHeight: 670,
   },
 ];
 
