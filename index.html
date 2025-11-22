@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <title>Crypto Liquidation Dashboard</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
 
     <!-- Basic iOS PWA hints -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <meta name="apple-mobile-web-app-title" content="Crypto Liq Dash" />
 
-    <!-- You can later add real icons in /public and point these hrefs to them -->
+    <!-- TODO: point these to real icons later -->
     <link rel="apple-touch-icon" href="/icon-192.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- CoinGecko Heatmap widget script (loads the custom element) -->
+    <script src="https://widgets.coingecko.com/coingecko-coin-heatmap-widget.js"></script>
   </head>
   <body>
     <div id="root"></div>
