@@ -24,12 +24,6 @@ body,
   height: 100%;
 }
 
-html,
-body {
-  height: 100%;
-  overflow: hidden; /* lock global scroll */
-}
-
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Inter", sans-serif;
