@@ -9,7 +9,6 @@ const TABS = [
     id: "heatmap",
     label: "Heatmap",
     subtitle: "Live multi-coin heatmap from CoinGecko",
-    cropHeight: 400,
   },
   {
     id: "liqmap",
