@@ -17,7 +17,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 120,   // tweak this value
-    cropHeight: 800,  // tweak this value
+    cropHeight: 750,  // tweak this value
   },
   {
     id: "liqheat",
