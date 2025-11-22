@@ -17,7 +17,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/LiquidationMap",
     source: "CoinGlass",
     offsetTop: 120,   // tweak this value
-    cropHeight: 650,  // tweak this value
+    cropHeight: 800,  // tweak this value
   },
   {
     id: "liqheat",
@@ -26,7 +26,7 @@ const TABS = [
     url: "https://www.coinglass.com/pro/futures/LiquidationHeatMap",
     source: "CoinGlass",
     offsetTop: 120,
-    cropHeight: 650,
+    cropHeight: 800,
   },
   {
     id: "spotflows",
@@ -35,7 +35,7 @@ const TABS = [
     url: "https://www.coinglass.com/spot-inflow-outflow",
     source: "CoinGlass",
     offsetTop: 120,
-    cropHeight: 650,
+    cropHeight: 800,
   },
 ];
 
