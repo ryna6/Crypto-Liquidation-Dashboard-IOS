@@ -46,6 +46,13 @@ body {
   max-width: 480px;
   margin: 0 auto;
   background: linear-gradient(180deg, #050710 0%, #020309 100%);
+  overflow: hidden;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .app-header {
