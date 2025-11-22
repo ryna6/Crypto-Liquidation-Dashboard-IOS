@@ -13,14 +13,6 @@ export function HeatmapTab() {
     <div className="external-page">
       <div className="external-page-header">
         <div className="external-page-title">Crypto Market Heatmap</div>
-
-        <button
-          type="button"
-          className="open-browser-btn"
-          onClick={handleOpenInBrowser}
-        >
-          Open on CoinGecko
-        </button>
       </div>
 
       <div className="heatmap-widget-wrapper">
